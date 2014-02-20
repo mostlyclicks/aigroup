@@ -3,15 +3,19 @@ $gray: #3f423b;
 $sky: #7f9da7;
 $white: #ffffff;
 
+html {
+  background-color:$sky !important;
+}
 
 body {
 	/* padding-top:26px;for top fixed nav*/
+
 }
 
 
 
 #logo {
-  padding-top:120px;
+  padding-top:60px !important;
   font-family:$font-sans;
   font-weight:100;
   color:#ffffff;
@@ -24,7 +28,7 @@ p {
 }
 
 #section-1 {
-  background-color:lighten($sky, 10%);
+  background-color:lighten($sky, 0%);
   margin-top:-26px;
   min-height:250px;
   padding:2em 0 2em 0;
